@@ -9,5 +9,6 @@ Integrantes del equipo:
 
 Asignatura
 - DESARROLLO COLABORATIVO.
+
 Profesor
 - Iván Ayala Manrique.
