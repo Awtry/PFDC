@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Hatton;
+    src: url("../fonts/Hatton.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ttcommonspro;
+    src: url("../fonts/ttCommonsPro.otf") format("opentype");
+}
