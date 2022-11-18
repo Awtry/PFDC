@@ -1,7 +1,73 @@
-.encabezado, #encabezado {
+body{
+    background-color: #F9F9F9;
+}
+
+.colorHead, #colorHead, #colorFoot {
+    color: #F9F9F9;
+    background-color: #1F4B26;
+}
+
+.logo, #logo {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.loginCuadro {
+    background-color: #345839; 
+    width: 40%; 
+    height: 70%; 
+    margin-top: 3%; 
+    margin-bottom: 3%;
+    border-radius: 10px; 
+}
+
+.centrado, #centrado{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.fuenteF9, #fuenteF9 {
     color: #F9F9F9;
-    background-color: #1F4B26;
+}
+
+.fuenteFF, #fuenteFF {
+    color: #FFFFFF;
+}
+
+#hrAncho{
+    color: #F9F9F9;
+    background-color: #F9F9F9;
+    height: 5px;
+}
+
+.btnLogin, #btnLogin {
+    background-color: #002B2B;
+    color: #F9F9F9;
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+}
+
+.btnLogin:hover {
+    background-color: #002020;
+}
+
+.textoRegistro {
+    color: #f9f9f9; 
+    font-style: italic; 
+    font-size: 10px;
+}
+
+.tamañoFuente {
+    font-size: 20px;
+}
+
+.inputLogin {
+    width: 100%; 
+    border-radius: 10px; 
+    border-style: none; 
+    text-align: center; 
+    font-size: 20px;
 }
