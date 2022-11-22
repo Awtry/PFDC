@@ -1,0 +1,132 @@
+#Header{
+
+    background-color: #345839;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NavbarAJJD{
+    background-color: #345839;
+    
+}
+
+#NavbarTitle{
+    color: white;
+}
+
+/**---------------------------------------------**/
+
+#MyBody{
+    height: 690px;
+}
+
+#MyContent{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Form{
+    border-radius: 10px;
+    width: 800px;
+    
+    color: white;
+    background-color: #345839;
+
+    padding: 20px;
+}
+
+
+.FormRow{
+    padding: 2px;
+}
+
+.FormCol{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FormTitle{
+    color: white;
+    text-align: center;
+}
+
+#FormHR{
+    color: white;
+}
+
+.FormText{
+
+    color: white;
+    font-size: 20px;
+
+}
+
+.FormSubText{
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#FormButtonCancelar{
+    border:none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+
+    border-color: black;
+    color: white;
+    border-style: solid;
+    background-color: #5c131f;
+    border-width: 1px;
+
+}
+#FormButtonCancelar:hover{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    
+    border-color: white;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#FormButtonIniciar{
+    border:none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+
+    border-color: black;
+    color: white;
+    border-style: solid;
+    background-color: #0f4432;
+    border-width: 1px;
+
+}
+#FormButtonIniciar:hover{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/**---------------------------------------------**/
+
+#Footer{
+    background-color: #345839;
+    color: white;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
