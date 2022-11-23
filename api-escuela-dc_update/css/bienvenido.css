@@ -1,5 +1,9 @@
+/*Navbar*/
 #Header{
 
+    width: 100%;
+    display: block;
+    position: fixed;
     background-color: #345839;
 
     display: flex;
@@ -11,22 +15,66 @@
     background-color: #345839;
     
 }
-
 #NavbarTitle{
     color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
+
+#InicioNav{
+    color: white;
+    background-color: #345839;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#MateriasNav{
+    color: white;
+    background-color: #345839;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#AlumnosNav{
+    color: white;
+    background-color: #345839;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#PerfilNav{
+    color: white;
+    background-color: #345839;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*Fin Navbar*/
 
 /**---------------------------------------------**/
-
 #MyBody{
-    height: 690px;
+    height: 740px;
 }
+
 
 #MyContent{
     
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+
 
 /**---------------------------------------------**/
 
