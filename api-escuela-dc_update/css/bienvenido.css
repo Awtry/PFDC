@@ -1,0 +1,41 @@
+#Header{
+
+    background-color: #345839;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NavbarAJJD{
+    background-color: #345839;
+    
+}
+
+#NavbarTitle{
+    color: white;
+}
+
+/**---------------------------------------------**/
+
+#MyBody{
+    height: 690px;
+}
+
+#MyContent{
+    
+    display: flex;
+    justify-content: center;
+}
+
+/**---------------------------------------------**/
+
+#Footer{
+    background-color: #345839;
+    color: white;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
