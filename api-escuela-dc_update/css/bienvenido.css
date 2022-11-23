@@ -72,8 +72,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
+#BienvenidoCotainerFiguraRow{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+
+    width: 350px;
+    height: 450px;
+
+    background-color: #345839;
+
+}
+
+#BienvenidoContainerTextoCol{
+    margin-top: 140px;
+    margin-bottom: 150px;
+
+    color: white;
+}
 
 
 /**---------------------------------------------**/
