@@ -1,0 +1,110 @@
+/*Navbar*/
+#Header{
+
+    width: 100%;
+    display: block;
+    background-color: #345839;
+
+    display: flex;
+    
+}
+#NavbarAJJD{
+    background-color: #345839;
+
+}
+
+#NavbarTitle{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+/**---------------------------------------------**/
+#InicioNav{
+    color: white;
+    background-color: #345839;
+}
+
+#MateriasNav{
+    color: white;
+    background-color: #345839;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#AlumnosNav{
+    color: white;
+    background-color: #345839;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#PerfilNav{
+    color: white;
+    background-color: #345839;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*Fin Navbar*/
+
+/**---------------------------------------------**/
+#MyBody{
+    min-height: 76vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#divider{
+    border: 0;
+    border-top: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#BotonNuevo{
+    background-color: #345839;
+}
+
+#CentraTexto {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#TablaMateria td{
+    
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#IconoContenedor{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+/**---------------------------------------------**/
+
+#Footer{
+    background-color: #345839;
+    color: white;
+    margin-top: auto;
+    display: table;
+    width: 100%;
+    height: 13vh;
+    text-align: center;
+}
