@@ -59,7 +59,7 @@
 
 /**---------------------------------------------**/
 #MyBody{
-    min-height: 76vh;
+    min-height: 90vh;
     margin: 0;
     display: flex;
     flex-direction: column;
