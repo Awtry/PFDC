@@ -1,3 +1,7 @@
+body {
+    background-color: #F9F9F9;
+}
+
 /*Navbar*/
 #Header{
 
@@ -86,14 +90,19 @@
     font-weight: bold;
 }
 
-#TablaMateria th{
+#TablaAlumno th{
     
     text-align: center;
     align-items: center;
     vertical-align: middle;
 }
 
-#TablaMateria td{
+#TablaAlumnoTR {
+    background-color: #7F9883; 
+    margin-bottom: 100px;
+}
+
+#TablaAlumno td{
     
     justify-content: center;
     vertical-align: middle;
@@ -104,6 +113,13 @@
     justify-content: center; 
     align-items: center;
     margin-top: 0px;
+}
+
+#cajaTexto {
+    background-color: #CDD1DC; 
+    padding: 10px 15px 10px 15px; 
+    border-radius: 10px; 
+    width: 120px;
 }
 
 
