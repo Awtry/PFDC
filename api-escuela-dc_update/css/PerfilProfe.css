@@ -7,13 +7,14 @@ body{
 
     width: 100%;
     display: block;
-    background-color: #002B2B;
+    background-color: #1F4B26;
 
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 #NavbarAJJD{
-    background-color: #002B2B;
+    background-color: #1F4B26;
 
 }
 
@@ -32,7 +33,34 @@ body{
 /*---------------------------------------------*/
 #InicioNav{
     color: white;
-    background-color: #002B2B;
+    background-color: #1F4B26;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#MateriasNav{
+    color: white;
+    background-color: #1F4B26;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#AlumnosNav{
+    color: white;
+    background-color: #1F4B26;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#PerfilNav{
+    color: white;
+    background-color: #1F4B26;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /*Fin Navbar*/
@@ -94,13 +122,13 @@ body{
     margin-right: 20px;
 }
 
-#inputMaterias {
+#inputProfes {
     background-color: #CDD1DC; 
     text-align: center;
     color: #000000;
 }
 
-.InputFotoMateria {
+.InputFotoProfe {
         width: 0.1px;
         height: 0.1px;
         opacity: 0;
@@ -110,10 +138,10 @@ body{
         
 }
 
-.InputFotoMateria + label {
+.InputFotoProfe + label {
     font-size: 1.25em;
     font-weight: 700;
-    color: black;
+    color: #F9F9F9;
     background-color: black;
     display: inline-block;
     padding: 10px;
@@ -125,27 +153,18 @@ body{
     
 }
 
-.InputFotoMateria + label,
-.InputFotoMateria + label:hover {
-    background-color: #279A8C;
+.InputFotoProfe + label,
+.InputFotoProfe + label:hover {
+    background-color: #002B2B;
 }
 
-.InputFotoMateria + label {
+.InputFotoProfe + label {
 	cursor: pointer; /* "hand" cursor */
 }
 
-#botonesMateria {
-    background-color: #279A8C;
-    color: #000000;
-}
-
-#Comentarios {
-    resize: none; 
-    background-color: #C5CFF1; 
-    border-radius: 10px; 
-    width: 100%; 
-    border-style: none; 
-    padding: 10px;
+#botonesProfe {
+    background-color: #002B2B;
+    color: #F9F9F9;
 }
 /*---------------------------------------------*/
 
@@ -158,7 +177,7 @@ body{
     height: 13vh;
     text-align: center;*/
 
-    background-color: #002B2B;
+    background-color: #1F4B26;
     color: white;
     height: 50px;
     display: flex;

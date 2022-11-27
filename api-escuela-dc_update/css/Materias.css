@@ -7,14 +7,14 @@ body{
 
     width: 100%;
     display: block;
-    background-color: #345839;
+    background-color: #06370E;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #NavbarAJJD{
-    background-color: #345839;
+    background-color: #06370E;
 
 }
 
@@ -30,10 +30,10 @@ body{
 
 }
 
-/**---------------------------------------------**/
+/*---------------------------------------------*/
 #InicioNav{
     color: white;
-    background-color: #345839;
+    background-color: #06370E;
     margin-top: 2px;
     margin-left: 5px;
     margin-right: 5px;
@@ -41,7 +41,7 @@ body{
 
 #MateriasNav{
     color: white;
-    background-color: #345839;
+    background-color: #06370E;
     margin-top: 2px;
     margin-left: 5px;
     margin-right: 5px;
@@ -49,7 +49,7 @@ body{
 
 #AlumnosNav{
     color: white;
-    background-color: #345839;
+    background-color: #06370E;
     margin-top: 2px;
     margin-left: 5px;
     margin-right: 5px;
@@ -57,15 +57,15 @@ body{
 
 #PerfilNav{
     color: white;
-    background-color: #345839;
+    background-color: #06370E;
     margin-top: 2px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-/*Fin Navbar*/
+/*Fin Navbar/
 
-/**---------------------------------------------**/
+/*---------------------------------------------*/
 #MyBody{
     min-height: 76vh;
     margin: 0;
@@ -82,17 +82,27 @@ body{
 }
 
 #BotonNuevo{
-    background-color: #345839;
+    background-color: #002B2B;
 }
 
-#TablaMateria th{
+.textoTH, #textoTH {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#TablaAlumno th{
     
     text-align: center;
     align-items: center;
     vertical-align: middle;
 }
 
-#TablaMateria td{
+#TablaAlumnoTR {
+    background-color: #7F9883; 
+    margin-bottom: 100px;
+}
+
+#TablaAlumno td{
     
     justify-content: center;
     vertical-align: middle;
@@ -105,11 +115,18 @@ body{
     margin-top: 0px;
 }
 
+#cajaTexto {
+    background-color: #CDD1DC; 
+    padding: 10px 15px 10px 15px; 
+    border-radius: 10px; 
+    width: 150px;
+}
 
-/**---------------------------------------------**/
+
+/*---------------------------------------------*/
 
 #Footer{
-    background-color: #345839;
+    background-color: #06370E;
     color: white;
     height: 50px;
     display: flex;
