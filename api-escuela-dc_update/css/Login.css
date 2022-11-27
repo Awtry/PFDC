@@ -32,6 +32,10 @@ body{
     color: #F9F9F9;
 }
 
+.fuente0, #fuente0{
+    color: #000000;
+}
+
 .fuenteFF, #fuenteFF {
     color: #FFFFFF;
 }

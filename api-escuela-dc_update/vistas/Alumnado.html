@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alumnos</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous">
+
+        <!--Style-->
+        <link rel="stylesheet" href="../css/Alumnado.css">
+        <script src="https://kit.fontawesome.com/ebd496b924.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!--Header-->
+        <header id="Header">
+            <nav id="NavbarAJJD" class="navbar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <nav id="NavbarAJJD" class="navbar navbar-expand-lg">
+                                <div class="container-fluid">
+
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a id="InicioNav" class="nav-link" href="../vistas/bienvenido.html">Inicio</a>
+                                        </li>
+
+                                        <li class="nav-item NavbarSubtitlesPages">
+                                            <a style="font-weight: bold;" id="MateriasNav" class="nav-link" href="#">Alumnos</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <label id="NavbarTitle">AJJD</label>
+                                        </li>
+
+                                        <li class="nav-item NavbarSubtitlesPages">
+                                            <a id="AlumnosNav" class="nav-link" href="./Materias.html">Materias</a>
+                                        </li>
+
+                                        <li class="nav-item NavbarSubtitlesPages">
+                                            <a id="PerfilNav" class="nav-link" href="#">Perfil</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!--Fin Header-->
+
+
+            <!--Contenido-->
+            <div id="MyBody" class="container-fluid">
+                <div class="container-fluid">
+
+                    <!-- Titulo Alumnado -->
+                    <div class="container-fluid" >
+                        <div class="row">
+                            <div class="col-12" style="margin-top: 30px;">
+                                <h2 style="text-align: center;">Alumnado</h2>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end"
+                                style="text-align: left; margin-bottom: 10px;">
+                                <button id="BotonNuevo" type="button" class="btn btn-success" href="./RegistroAlumno.html"><a style="color: #ffff; text-decoration: none;" href="./RegistroAlumno.html">Nuevo</a></button>
+                            </div>
+                            <div id="divider" class="col-12">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Titulo Alumnado  -->
+
+                    <!-- Tabla de Alumnado -->
+                    <table class="table" id="TablaAlumno">
+                        <thead>
+                            <tr>
+                                <th scope="col" id="textoTH">#</th>
+                                <th scope="col"></th>
+                                <th scope="col" id="textoTH">Matrícula</th>
+                                <th></th>
+                                <th scope="col"></th>
+                                <th scope="col" id="textoTH">Nombre</th>
+                                <th scope="col" id="textoTH">Completo</th>
+                                <th scope="col"></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Diseño de tabla base -->
+                            <tr id="TablaAlumnoTR">
+                                <th scope="row"> <h2 style="text-align: center; font-weight: bold;">1</h2></th>
+                                <td>
+                                    <div class="col" id="IconoContenedor">
+                                        <img
+                                            src="../icons/MaleUser.png"
+                                            height="70px" width="70px">
+                                    </div>
+                                </td>
+                                <td style="text-align: center;"> <label id="cajaTexto">00070306</label></td>
+                                <td></td>
+                                <td style="text-align: center;"><label id="cajaTexto">ALAN</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">MARVIN</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">GUZMÁN</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">FLORES</label></td>
+                                <td></td>
+                                <td>
+                                        <div class="col" id="IconoContenedor">
+                                            <button type="button" class="btn">
+                                                <a href="../vistas/PerfilAlumno.html">
+                                                    <img
+                                                    src="../icons/pencil.png" height="40px"
+                                                    width="40px">
+                                                </a>
+                                                </button>
+                                        </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="divider"></tr>
+                            <tr id="TablaAlumnoTR">
+                                <th scope="row"> <h2 style="text-align: center; font-weight: bold;">2</h2></th>
+                                <td>
+                                    <div class="col" id="IconoContenedor">
+                                        <img
+                                            src="../icons/FemaleUser.png"
+                                            height="70px" width="70px">
+                                    </div>
+                                </td>
+                                <td style="text-align: center;"> <label id="cajaTexto">00070624</label></td>
+                                <td></td>
+                                <td style="text-align: center;"><label id="cajaTexto">DIANA</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">BOJORQUEZ</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">SOTO</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto"></label></td>
+                                <td></td>
+                                <td>
+                                        <div class="col" id="IconoContenedor">
+                                            <button type="button" class="btn">
+                                                <a href="../vistas/PerfilAlumno.html">
+                                                    <img
+                                                    src="../icons/pencil.png" height="40px"
+                                                    width="40px">
+                                                </a>
+                                            </button>
+                                        </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="divider"></tr>
+                            <tr id="TablaAlumnoTR">
+                                <th scope="row"> <h2 style="text-align: center; font-weight: bold;">2</h2></th>
+                                <td>
+                                    <div class="col" id="IconoContenedor">
+                                        <img
+                                            src="../icons/MaleUser.png"
+                                            height="70px" width="70px">
+                                    </div>
+                                </td>
+                                <td style="text-align: center;"> <label id="cajaTexto">00070362</label></td>
+                                <td></td>
+                                <td style="text-align: center;"><label id="cajaTexto">JORGE</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">ISMAEL</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">VERA</label></td>
+                                <td style="text-align: center;"><label id="cajaTexto">HUERTA</label></td>
+                                <td></td>
+                                <td>
+                                        <div class="col" id="IconoContenedor">
+                                            <button type="button" class="btn">
+                                                <a href="../vistas/PerfilAlumno.html">
+                                                    <img
+                                                    src="../icons/pencil.png" height="40px"
+                                                    width="40px">
+                                                </a>
+                                            </button>
+                                        </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <!-- Diseño de tabla base -->
+
+                        </tbody>
+                    </table>
+                    <!-- Tabla de materias -->
+                    
+
+                    <div class="container-fluid" >
+                            <div id="divider" class="col-12">
+                            </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <!--Fin Contenido-->
+
+
+
+            <!--Footer-->
+            <footer id="Footer">
+                <label for=""> © 2022 - AJJD COPYRIGHT</label>
+            </footer>
+            <!--Fin Footer-->
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+                integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+                integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+                crossorigin="anonymous"></script>
+
+
+        </body>
+    </html>

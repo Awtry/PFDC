@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--Style-->
+    <link rel="stylesheet" href="../css/RegistroAlumno.css">
+    <script src="https://kit.fontawesome.com/ebd496b924.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Header-->
+    <header id="Header">
+        <nav id="NavbarAJJD" class="navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <nav id="NavbarAJJD" class="navbar navbar-expand-lg">
+                            <div class="container-fluid" style="text-align: center;">
+
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a id="InicioNav" class="nav-link rotate90" href="./Alumnado.html"><img
+                                                src="../icons/BackWite.png" height="40px" width="40px"></a>
+                                    </li>
+                                </ul>
+
+                                <h1 id="NavbarTitle" style="margin-left: 400px;">AJJD</h1>
+                            </div>
+                        </nav>
+                    </div>
+        </nav>
+        </div>
+    </header>
+    <!--Fin Header-->
+
+
+    <!--Contenido-->
+    <div id="MyBody" class="container-fluid">
+        <div class="container-fluid">
+
+            <!-- Registro Alumnos -->
+            <div class="row">
+                <div class="col-6">
+                    <div class="col" style="margin-top: 30px;">
+                        <h2 id="CentraTexto">Registro Alumnos</h2>
+                        <div id="divider" class="col-12"></div>
+    
+                        <!-- Formulario -->
+    
+                        <form>
+                            <div class="container-fluid col-12">
+                                <div class="row">
+                                    <div class="mb-3 col-6" id="textoLabel">
+                                        <label for="Matricula">Matrícula:</label>
+                                    </div>
+                                    <div class="mb-3 col-6">
+                                        <input type="number" class="form-control" id="inputAlumnos"
+                                            aria-describedby="Matricula alumno" placeholder="00000000">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="container-fluid col-12">
+                                <div class="row">
+                                    <div class="mb-3 col-6" id="textoLabel">
+                                        <label for="Nombre">Nombre(s):</label>
+                                    </div>
+                                    <div class="mb-3 col-6">
+                                        <input type="text" class="form-control" id="inputAlumnos"
+                                            aria-describedby="Nombre alumno" placeholder="ALAN">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="container-fluid col-12">
+                                <div class="row">
+                                    <div class="mb-3 col-6" id="textoLabel">
+                                        <label for="APaterno">Apellido paterno:</label>
+                                    </div>
+                                    <div class="mb-3 col-6">
+                                        <input type="text" class="form-control" id="inputAlumnos"
+                                            aria-describedby="APaterno alumno" placeholder="GUZMÁN">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="container-fluid col-12">
+                                <div class="row">
+                                    <div class="mb-3 col-6" id="textoLabel">
+                                        <label for="AMaterno">Apellido materno:</label>
+                                    </div>
+                                    <div class="mb-3 col-6">
+                                        <input type="text" class="form-control" id="inputAlumnos"
+                                            aria-describedby="AMaterno alumno" placeholder="FLORES">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div id="dividerMenor" style="margin-top: 20px;" class="col-12"></div>
+    
+                            <div class="container-fluid col-12">
+                                <div class="row">
+                                    <div class="mb-3 col-6" id="textoLabel">
+                                        <label for="Carrera">Carrera que cursa:</label>
+                                    </div>
+                                    <div class="mb-3 col-6">
+                                        <input type="text" class="form-control" id="inputAlumnos"
+                                            aria-describedby="Carrera alumno" placeholder="ISSC">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="container-fluid col-12">
+                                <div class="row">
+                                    <div class="mb-3 col-6" id="textoLabel">
+                                        <label for="Semestre">Semestre:</label>
+                                    </div>
+                                    <div class="mb-3 col-6">
+                                        <input type="number" class="form-control" id="inputAlumnos"
+                                            aria-describedby="AMaterno alumno" placeholder="7">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="container-fluid col-12">
+                                <div class="row">
+                                    <div class="mb-3 col-6" id="textoLabel">
+                                        <label for="Grupo">Grupo:</label>
+                                    </div>
+                                    <div class="mb-3 col-6">
+                                        <input type="number" class="form-control" id="inputAlumnos"
+                                            aria-describedby="AMaterno alumno" placeholder="711">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+    
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <!-- Parte de la foto -->
+                    <div class="col" id="IconoContenedor">
+                        <div class="row">
+                            <div class="col-12" id="IconoContenedor">
+                                <img src="../icons/MaleUser.png"
+                                    height="400px" width="400px">
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-3" id="IconoCamara">
+                                        <img src="../icons/Camera.png"
+                                        height="40px" width="40px">
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="file" name="InputFotoAlumno"  id="InputFotoAlumno" class="InputFotoAlumno"/>
+                                        <label for="InputFotoAlumno">SUBIR FOTO</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Parte de la foto -->
+
+                <!-- Parte de botones de registro y cancelar -->
+                <div class="container-fluid" style="margin-top: 5%; margin-bottom: 5%;">
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn" style="margin-left: 6%;" id="botonesAlumno">
+                                REGISTRAR
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn" style="margin-left: 35%;" id="botonesAlumno">
+                                CANCELAR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                
+            </div>
+            <!-- Registro Alumnos -->
+
+        </div>
+        <!--Fin Contenido-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+<!--Footer-->
+<footer id="Footer">
+    <label for=""> © 2022 - AJJD COPYRIGHT</label>
+</footer>
+<!--Fin Footer-->
+
+</html>

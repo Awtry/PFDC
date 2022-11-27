@@ -1,0 +1,158 @@
+body{
+    background-color: #F9F9F9;
+}
+
+/*Navbar*/
+#Header{
+
+    width: 100%;
+    display: block;
+    background-color: #002B2B;
+
+    display: flex;
+    
+}
+#NavbarAJJD{
+    background-color: #002B2B;
+
+}
+
+#NavbarTitle{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+/**---------------------------------------------**/
+#InicioNav{
+    color: white;
+    background-color: #002B2B;
+}
+
+/*Fin Navbar*/
+
+/**---------------------------------------------**/
+#MyBody{
+    min-height: 90vh;
+    margin: 0;
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+
+#divider{
+    border: 0;
+    border-top: 4px solid black;
+    margin-bottom: 20px;
+}
+
+#dividerMenor{
+    border: 0;
+    border-top: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#BotonNuevo{
+    background-color: #345839;
+}
+
+#CentraTexto {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#IconoContenedor{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+#IconoCamara {
+    float: right; 
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    vertical-align: middle;
+}
+
+#textoLabel {
+    font-size: 20px;
+    text-align: right;
+}
+
+#textoLabel label {
+    margin-right: 20px;
+}
+
+#inputAlumnos {
+    background-color: #CDD1DC; 
+    text-align: center;
+    color: #000000;
+}
+
+.InputFotoAlumno {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        
+}
+
+.InputFotoAlumno + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    
+}
+
+.InputFotoAlumno + label,
+.InputFotoAlumno + label:hover {
+    background-color: #279A8C;
+}
+
+.InputFotoAlumno + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+#botonesAlumno {
+    background-color: #279A8C;
+    color: #000000;
+}
+/**---------------------------------------------**/
+
+#Footer{
+    /*background-color: #345839;
+    color: white;
+    margin-top: auto;
+    display: table;
+    width: 100%;
+    height: 13vh;
+    text-align: center;*/
+
+    background-color: #002B2B;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,115 @@
+body{
+    background-color: #F9F9F9;
+}
+
+/*Navbar*/
+#Header{
+
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color: #06370E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NavbarAJJD{
+    background-color: #06370E;
+    
+}
+#NavbarTitle{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#InicioNav{
+    color: white;
+    background-color: #06370E;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#MateriasNav{
+    color: white;
+    background-color: #06370E;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#AlumnosNav{
+    color: white;
+    background-color: #06370E;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#PerfilNav{
+    color: white;
+    background-color: #06370E;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*Fin Navbar*/
+
+/**---------------------------------------------**/
+#MyBody{
+    height: 740px;
+}
+
+
+#MyContent{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#BienvenidoCotainerFiguraRow{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+
+    width: 350px;
+    height: 450px;
+
+    background-color: #06370E;
+
+}
+
+#BienvenidoContainerTextoCol{
+    margin-top: 140px;
+    margin-bottom: 150px;
+
+    color: white;
+}
+
+
+/**---------------------------------------------**/
+
+#Footer{
+    background-color: #06370E;
+    color: white;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

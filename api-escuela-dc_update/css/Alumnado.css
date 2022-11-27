@@ -1,10 +1,7 @@
-<<<<<<< Updated upstream:api-escuela-dc_update/css/materiasReg.css
-=======
 body {
     background-color: #F9F9F9;
 }
 
->>>>>>> Stashed changes:api-escuela-dc_update/css/Materias.css
 /*Navbar*/
 #Header{
 
@@ -33,7 +30,7 @@ body {
 
 }
 
-/*---------------------------------------------*/
+/**---------------------------------------------**/
 #InicioNav{
     color: white;
     background-color: #06370E;
@@ -66,14 +63,14 @@ body {
     margin-right: 5px;
 }
 
-/*Fin Navbar/
+/*Fin Navbar*/
 
-/*---------------------------------------------*/
+/**---------------------------------------------**/
 #MyBody{
     min-height: 76vh;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
 }
 
 
@@ -122,23 +119,23 @@ body {
     background-color: #CDD1DC; 
     padding: 10px 15px 10px 15px; 
     border-radius: 10px; 
-    width: 150px;
+    width: 120px;
 }
 
 
-/*---------------------------------------------*/
+/**---------------------------------------------**/
 
 #Footer{
     background-color: #06370E;
     color: white;
-    /*height: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;*/
-
+    align-items: center;
+/*
     margin-top: auto;
     display: table;
     width: 100%;
     height: 13vh;
-    text-align: center;
+    text-align: center;*/
 }
