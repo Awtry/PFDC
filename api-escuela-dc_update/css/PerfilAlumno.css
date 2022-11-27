@@ -135,6 +135,42 @@ body{
     background-color: #279A8C;
     color: #000000;
 }
+
+/* */
+
+/* The container must be positioned relative: */
+#custom-select {
+    background-color: #3773A0;
+    width: 60%;
+    font-size: 12px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 10px;
+}
+
+#inputCalif {
+    width: 30px; 
+    border-radius: 5px; 
+    border-style: none; 
+    background-color: #3773A0; 
+    text-align: center;
+    margin-top: 5px;
+}
+
+#textoF9 {
+    color: #F9F9F9;
+}
+
+#Comentarios {
+    resize: none; 
+    background-color: #C5CFF1; 
+    border-radius: 10px; 
+    width: 100%; 
+    border-style: none; 
+    padding: 10px;
+}
+
+
 /**---------------------------------------------**/
 
 #Footer{
