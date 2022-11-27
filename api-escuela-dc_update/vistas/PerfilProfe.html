@@ -13,7 +13,7 @@
             crossorigin="anonymous">
 
         <!--Style-->
-        <link rel="stylesheet" href="../css/RegistroMateria.css">
+        <link rel="stylesheet" href="../css/PerfilProfe.css">
         <script src="https://kit.fontawesome.com/ebd496b924.js" crossorigin="anonymous"></script>
     </head>
 
@@ -26,18 +26,33 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <nav id="NavbarAJJD" class="navbar navbar-expand-lg">
-                                <div class="container-fluid" style="text-align: center;">
+                                <div class="container-fluid">
 
                                     <ul class="nav nav-tabs">
                                         <li class="nav-item">
-                                            <a id="InicioNav" class="nav-link rotate90"
-                                                href="./Materias.html"><img
-                                                    src="../icons/BackWite.png" height="40px"
-                                                    width="40px"></a>
+                                            <a id="InicioNav" class="nav-link"
+                                                href="../vistas/bienvenido.html">Inicio</a>
+                                        </li>
+
+                                        <li class="nav-item NavbarSubtitlesPages">
+                                            <a id="MateriasNav" class="nav-link"
+                                                href="../vistas/Alumnado.html">Alumnos</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <label id="NavbarTitle">AJJD</label>
+                                        </li>
+
+                                        <li class="nav-item NavbarSubtitlesPages">
+                                            <a id="AlumnosNav" class="nav-link"
+                                                href="../vistas/Materias.html">Materias</a>
+                                        </li>
+
+                                        <li class="nav-item NavbarSubtitlesPages">
+                                            <a style="font-weight: bold;" id="PerfilNav"
+                                                class="nav-link" href="#">Perfil</a>
                                         </li>
                                     </ul>
-
-                                    <h1 id="NavbarTitle" style="margin-left: 400px;">AJJD</h1>
                                 </div>
                             </nav>
                         </div>
@@ -51,11 +66,11 @@
             <div id="MyBody" class="container-fluid">
                 <div class="container-fluid">
 
-                    <!-- Registro Materias -->
+                    <!-- Registro Profes -->
                     <div class="row">
                         <div class="col-6">
                             <div class="col" style="margin-top: 30px;">
-                                <h2 id="CentraTexto">Registro Materia</h2>
+                                <h2 id="CentraTexto">Mi Perfil</h2>
                                 <div id="divider" class="col-12"></div>
 
                                 <!-- Formulario -->
@@ -63,13 +78,28 @@
                                 <form>
                                     <div class="container-fluid col-12">
                                         <div class="row">
-                                            <div class="mb-3 col-3" id="textoLabel">
-                                                <label for="Materia">Materia:</label>
+                                            <div class="mb-3 col-6" id="textoLabel">
+                                                <label for="UsuarioProfe">Nombre de usuario:</label>
                                             </div>
-                                            <div class="mb-3 col-9">
+                                            <div class="mb-3 col-6">
                                                 <input type="text" class="form-control"
-                                                    id="inputMaterias"
-                                                    aria-describedby="Materia"
+                                                    id="inputProfes"
+                                                    aria-describedby="UsuarioProfe"
+                                                    placeholder="Tetos">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="dividerMenor" style="margin-top: 20px;" class="col-12"></div>
+                                    <div class="container-fluid col-12" style="margin-top: 5%;">
+                                        <div class="row">
+                                            <div class="mb-3 col-6" id="textoLabel">
+                                                <label for="Matricuka">Matrícula:</label>
+                                            </div>
+                                            <div class="mb-3 col-6">
+                                                <input type="number" class="form-control"
+                                                    id="inputProfes"
+                                                    aria-describedby="Matricuka Profe"
                                                     placeholder="00000000">
                                             </div>
                                         </div>
@@ -77,46 +107,49 @@
 
                                     <div class="container-fluid col-12">
                                         <div class="row">
-                                            <div class="mb-3 col-3" id="textoLabel">
-                                                <label for="Profesor">Profesor:</label>
+                                            <div class="mb-3 col-6" id="textoLabel">
+                                                <label for="Nombre">Nombre(s):</label>
                                             </div>
-                                            <div class="mb-3 col-9">
+                                            <div class="mb-3 col-6">
                                                 <input type="text" class="form-control"
-                                                    id="inputMaterias"
-                                                    aria-describedby="Profesor Materia"
-                                                    placeholder="IVÁN">
+                                                    id="inputProfes"
+                                                    aria-describedby="AMaterno Profe"
+                                                    placeholder="RAFAEL">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="container-fluid col-12">
                                         <div class="row">
-                                            <div class="mb-3 col-3" id="textoLabel">
-                                                <label for="Hora">Hora(s):</label>
+                                            <div class="mb-3 col-6" id="textoLabel">
+                                                <label for="APaternoProf">Apellido paterno:</label>
                                             </div>
-                                            <div class="mb-3 col-3">
+                                            <div class="mb-3 col-6">
                                                 <input type="text" class="form-control"
-                                                    id="inputMaterias"
-                                                    aria-describedby="Hora Materia"
-                                                    placeholder="14:00">
-                                            </div>
-                                            <div class="mb-3 col-2" id="textoLabel">
-                                                <label for="Dia">Día(s):</label>
-                                            </div>
-                                            <div class="mb-3 col-4">
-                                                <input type="text" class="form-control"
-                                                    id="inputMaterias"
-                                                    aria-describedby="Dia Materia"
-                                                    placeholder="MARTES, VIERNES">
+                                                    id="inputProfes"
+                                                    aria-describedby="APaterno Profe"
+                                                    placeholder="MARTÍNEZ">
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div id="divider" style="margin-top: 20px;" class="col-12"></div>
-                                    <div class="container-fluid">
-                                        <label for="Comentarios">Descripción:</label>
-                                        <textarea name="Comentarios" id="Comentarios" cols="30"
-                                            rows="8"></textarea>
+                                    <div class="container-fluid col-12">
+                                        <div class="row">
+                                            <div class="mb-3 col-6" id="textoLabel">
+                                                <label for="AMaternoProf">Apellido materno:</label>
+                                            </div>
+                                            <div class="mb-3 col-6">
+                                                <input type="text" class="form-control"
+                                                    id="inputProfes"
+                                                    aria-describedby="AMaTERNO Profe"
+                                                    placeholder="PELAEZ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12" style="justify-content: center; text-align:
+                                        center; margin-top: 10%;">
+                                        <button class="btn" id="botonesProfe" style="width: 60%;">
+                                            CERRAR SESIÓN
+                                        </button>
                                     </div>
                                 </form>
 
@@ -128,7 +161,7 @@
                             <div class="col" id="IconoContenedor">
                                 <div class="row">
                                     <div class="col-12" id="IconoContenedor">
-                                        <img src="../icons/Matemáticas.PNG"
+                                        <img src="../icons/MaleUser.png"
                                             height="400px" width="400px">
                                     </div>
                                     <div class="col">
@@ -138,9 +171,9 @@
                                                     height="40px" width="40px">
                                             </div>
                                             <div class="col-9">
-                                                <input type="file" name="InputFotoMateria"
-                                                    id="InputFotoMateria" class="InputFotoMateria"/>
-                                                <label for="InputFotoMateria">SUBIR FOTO</label>
+                                                <input type="file" name="InputFotoProfe"
+                                                    id="InputFotoProfe" class="InputFotoProfe"/>
+                                                <label for="InputFotoProfe">SUBIR FOTO</label>
                                             </div>
                                         </div>
                                     </div>
@@ -151,16 +184,11 @@
                             <!-- Parte de botones de registro y cancelar -->
                             <div class="container-fluid" style="margin-top: 5%; margin-bottom: 5%;">
                                 <div class="row">
-                                    <div class="col-6">
-                                        <button class="btn" style="margin-left: 6%;"
-                                            id="botonesMateria">
-                                            REGISTRAR
-                                        </button>
-                                    </div>
+                                    <div class="col-6"></div>
                                     <div class="col-6">
                                         <button class="btn" style="margin-left: 35%;"
-                                            id="botonesMateria">
-                                            CANCELAR
+                                            id="botonesProfe">
+                                            ACTUALIZAR
                                         </button>
                                     </div>
                                 </div>
@@ -169,7 +197,7 @@
 
 
                     </div>
-                    <!-- Registro Materias -->
+                    <!-- Registro Profes -->
 
                 </div>
                 <!--Fin Contenido-->
