@@ -9,50 +9,78 @@
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
-    />
+      />
     <link href="../css/Login.css" rel="stylesheet" />
     <title>Inicio de sesión</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg" id="colorHead">
-        <div class="container-fluid" id="logo">
-          <h1>AJJD</h1>
-        </div>
+      <div class="container-fluid" id="logo">
+        <h1>AJJD</h1>
+      </div>
     </nav>
 
     <div class="container loginCuadro fuenteF9">
-        <div class="container-fluid centrado">
-            <h1>Inicio sesión</h1>
+      <div class="container-fluid centrado">
+        <h1>Inicio sesión</h1>
+      </div>
+      <hr>
+
+      <form onsubmit="event.preventDefault();validate();" action="https://httpbin.org/post" method="POST" class="form login">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Matricula</label>
+          <input type="text" class="form-control" id="matricula_maestro" placeholder="Maestro">
         </div>
-        <hr>
-            <div class="container-fluid col-12">
-                <div class="container-fluid col-5" style="text-align: right; display: inline-block;">
-                    <h1 class="tamañoFuente">Usuario:</h1>
-                </div>
-                <div class="container-fluid col-6" style="display: inline-block;">
-                    <input class="inputLogin" type="text" placeholder="Holi">
-                </div>
-            </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="contrasena_maestro" placeholder="Contraseña">
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary" value="Ingresar">Ir</button>
+        </div>
+      </form>
+      <div class="container-fluid col-6 centrado" style="margin-top: 5%;">
+        <p class="textoRegistro"> ¿No tienes cuenta? <a href="registro.html" style="color:
+            #f9f9f9;">Regístrate</a></p>
+      </div>
 
-            <div class="container-fluid col-12" style="margin-top: 8%;">
-                <div class="container-fluid col-5" style="display: inline-block; text-align: right;">
-                    <h1 class="tamañoFuente">Contraseña:</h1>
-                </div>
-                <div class="container-fluid col-6" style="display: inline-block;">
-                    <input class="inputLogin" type="text" placeholder="Holi" >
-                </div>
-            </div>
+      <br>
+      <br>
 
-            <div class="container-fluid col-12 ">
-                <div class="container-fluid col-5 centrado" style="margin-top: 10%;">
-                    <a type="submit" id="btnLogin" href="bienvenido.html" class="btn" role="button">
-                      <label>IR</label>
-                  </a>
-                </div>
-                <div class="container-fluid col-6 centrado" style="margin-top: 5%;">
-                    <p class="textoRegistro"> ¿No tienes cuenta? <a href="registro.html" style="color: #f9f9f9;">Regístrate</a></p>
-                </div>
-            </div>
+      <!-- 
+      <form >
+        <div class="container-fluid col-12">
+          <div class="container-fluid col-5" style="text-align: right; display: inline-block;">
+            <h1 class="tamañoFuente">Usuario:</h1>
+          </div>
+          <div class="container-fluid col-6" style="display: inline-block;">
+            <input class="inputLogin" type="text" placeholder="Holi">
+          </div>
+        </div>
+
+        <div class="container-fluid col-12" style="margin-top: 8%;">
+          <div class="container-fluid col-5" style="display: inline-block; text-align: right;">
+            <h1 class="tamañoFuente">Contraseña:</h1>
+          </div>
+          <div class="container-fluid col-6" style="display: inline-block;">
+            <input class="inputLogin" type="text" placeholder="Holi">
+          </div>
+        </div>
+
+        <div class="container-fluid col-12 ">
+          <div class="container-fluid col-5 centrado" style="margin-top: 10%;">
+            <a type="submit" id="btnLogin" href="bienvenido.html" class="btn" role="button">
+              <label>IR</label>
+            </a>
+          </div>
+          <div class="container-fluid col-6 centrado" style="margin-top: 5%;">
+            <p class="textoRegistro"> ¿No tienes cuenta? <a href="registro.html" style="color:
+                #f9f9f9;">Regístrate</a></p>
+          </div>
+        </form>
+
+        -->
+      </div>
     </div>
 
 
@@ -61,17 +89,15 @@
 
 
 
-
+    <script src="../back/backMaestro.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
       integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </body>
 
 
