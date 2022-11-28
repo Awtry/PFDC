@@ -94,7 +94,7 @@ body{
     margin-right: 20px;
 }
 
-#inputAlumnos {
+.inputAlumnos {
     background-color: #CDD1DC; 
     text-align: center;
     color: #000000;

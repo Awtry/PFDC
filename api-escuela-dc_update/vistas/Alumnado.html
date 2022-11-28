@@ -13,6 +13,7 @@
 
         <!--Style-->
         <link rel="stylesheet" href="../css/Alumnado.css">
+        <link rel="stylesheet" href="../css/RegistroAlumno.css">
         <script src="https://kit.fontawesome.com/ebd496b924.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -91,100 +92,9 @@
                                 <th></th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="TablaIterada">
                             <!-- Diseño de tabla base -->
-                            <tr id="TablaAlumnoTR">
-                                <th scope="row"> <h2 style="text-align: center; font-weight: bold;">1</h2></th>
-                                <td>
-                                    <div class="col" id="IconoContenedor">
-                                        <img
-                                            src="../icons/MaleUser.png"
-                                            height="70px" width="70px">
-                                    </div>
-                                </td>
-                                <td style="text-align: center;"> <label id="cajaTexto">00070306</label></td>
-                                <td></td>
-                                <td style="text-align: center;"><label id="cajaTexto">ALAN</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">MARVIN</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">GUZMÁN</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">FLORES</label></td>
-                                <td></td>
-                                <td>
-                                        <div class="col" id="IconoContenedor">
-                                            <button type="button" class="btn">
-                                                <a href="../vistas/PerfilAlumno.html">
-                                                    <img
-                                                    src="../icons/pencil.png" height="40px"
-                                                    width="40px">
-                                                </a>
-                                                </button>
-                                        </div>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr id="divider"></tr>
-                            <tr id="TablaAlumnoTR">
-                                <th scope="row"> <h2 style="text-align: center; font-weight: bold;">2</h2></th>
-                                <td>
-                                    <div class="col" id="IconoContenedor">
-                                        <img
-                                            src="../icons/FemaleUser.png"
-                                            height="70px" width="70px">
-                                    </div>
-                                </td>
-                                <td style="text-align: center;"> <label id="cajaTexto">00070624</label></td>
-                                <td></td>
-                                <td style="text-align: center;"><label id="cajaTexto">DIANA</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">BOJORQUEZ</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">SOTO</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto"></label></td>
-                                <td></td>
-                                <td>
-                                        <div class="col" id="IconoContenedor">
-                                            <button type="button" class="btn">
-                                                <a href="../vistas/PerfilAlumno.html">
-                                                    <img
-                                                    src="../icons/pencil.png" height="40px"
-                                                    width="40px">
-                                                </a>
-                                            </button>
-                                        </div>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr id="divider"></tr>
-                            <tr id="TablaAlumnoTR">
-                                <th scope="row"> <h2 style="text-align: center; font-weight: bold;">2</h2></th>
-                                <td>
-                                    <div class="col" id="IconoContenedor">
-                                        <img
-                                            src="../icons/MaleUser.png"
-                                            height="70px" width="70px">
-                                    </div>
-                                </td>
-                                <td style="text-align: center;"> <label id="cajaTexto">00070362</label></td>
-                                <td></td>
-                                <td style="text-align: center;"><label id="cajaTexto">JORGE</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">ISMAEL</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">VERA</label></td>
-                                <td style="text-align: center;"><label id="cajaTexto">HUERTA</label></td>
-                                <td></td>
-                                <td>
-                                        <div class="col" id="IconoContenedor">
-                                            <button type="button" class="btn">
-                                                <a href="../vistas/PerfilAlumno.html">
-                                                    <img
-                                                    src="../icons/pencil.png" height="40px"
-                                                    width="40px">
-                                                </a>
-                                            </button>
-                                        </div>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                            
                             <!-- Diseño de tabla base -->
 
                         </tbody>
@@ -201,6 +111,154 @@
             </div>
             <!--Fin Contenido-->
 
+            <div class="container-fluid">
+
+                <!-- Registro Alumnos -->
+                <div class="row">
+                    <div class="col-6">
+                        <div class="col" style="margin-top: 30px;">
+                            <h2 id="CentraTexto">Registro Alumnos</h2>
+                            <div id="divider" class="col-12"></div>
+        
+                            <!-- Formulario -->
+        
+                            <form>
+                                <div class="container-fluid col-12">
+                                    <div class="row">
+                                        <div class="mb-3 col-6" id="textoLabel">
+                                            <label for="Matricula">Matrícula:</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="number" class="form-control inputAlumnos" id="MatrAlumno"
+                                                aria-describedby="Matricula alumno" placeholder="00000000">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="container-fluid col-12">
+                                    <div class="row">
+                                        <div class="mb-3 col-6" id="textoLabel">
+                                            <label for="Nombre">Nombre(s):</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="text" class="form-control inputAlumnos" id="NombreAlumno"
+                                                aria-describedby="Nombre alumno" placeholder="ALAN">
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="container-fluid col-12">
+                                    <div class="row">
+                                        <div class="mb-3 col-6" id="textoLabel">
+                                            <label for="APaterno">Apellido paterno:</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="text" class="form-control inputAlumnos" id="APaternoAlumno"
+                                                aria-describedby="APaterno alumno" placeholder="GUZMÁN">
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="container-fluid col-12">
+                                    <div class="row">
+                                        <div class="mb-3 col-6" id="textoLabel">
+                                            <label for="AMaterno">Apellido materno:</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="text" class="form-control inputAlumnos" id="AMaternoAlumno"
+                                                aria-describedby="AMaterno alumno" placeholder="FLORES">
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div id="dividerMenor" style="margin-top: 20px;" class="col-12"></div>
+        
+                                <div class="container-fluid col-12">
+                                    <div class="row">
+                                        <div class="mb-3 col-6" id="textoLabel">
+                                            <label for="Carrera">Carrera que cursa:</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="text" class="form-control inputAlumnos" id="CarreraAlumno"
+                                                aria-describedby="Carrera alumno" placeholder="ISSC">
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="container-fluid col-12">
+                                    <div class="row">
+                                        <div class="mb-3 col-6" id="textoLabel">
+                                            <label for="Semestre">Semestre:</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="number" class="form-control inputAlumnos" id="SemestreAlumno"
+                                                aria-describedby="AMaterno alumno" placeholder="7">
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="container-fluid col-12">
+                                    <div class="row">
+                                        <div class="mb-3 col-6" id="textoLabel">
+                                            <label for="Grupo">Grupo:</label>
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <input type="number" class="form-control inputAlumnos" id="GrupoAlumno"
+                                                aria-describedby="Grupo alumno" placeholder="711">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+        
+                        </div>
+                    </div>
+    
+                    <div class="col-6">
+                        <!-- Parte de la foto -->
+                        <div class="col" id="IconoContenedor">
+                            <div class="row">
+                                <div class="col-12" id="IconoContenedor">
+                                    <img src="../icons/MaleUser.png"
+                                        height="400px" width="400px">
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-3" id="IconoCamara">
+                                            <img src="../icons/Camera.png"
+                                            height="40px" width="40px">
+                                        </div>
+                                        <div class="col-9">
+                                            <input type="file" name="InputFotoAlumno"  id="InputFotoAlumno" class="InputFotoAlumno"/>
+                                            <label for="InputFotoAlumno">SUBIR FOTO</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Parte de la foto -->
+    
+                    <!-- Parte de botones de registro y cancelar -->
+                    <div class="container-fluid" style="margin-top: 5%; margin-bottom: 5%;">
+                        <div class="row">
+                            <div class="col-6">
+                                <button class="btn" style="margin-left: 6%;" id="botonesAlumno" onclick="getDatos()">
+                                    REGISTRAR
+                                </button>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn" style="margin-left: 35%;" id="botonesAlumno">
+                                    CANCELAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+    
+                    
+                </div>
+                <!-- Registro Alumnos -->
+    
+            </div>
 
 
             <!--Footer-->
@@ -210,7 +268,8 @@
             <!--Fin Footer-->
 
 
-
+            <script type="text/javascript" src="../back/backAlumno.js"></script>
+            <script type="text/javascript" src="../back/pruebaAlumno.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
                 integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
                 crossorigin="anonymous"></script>

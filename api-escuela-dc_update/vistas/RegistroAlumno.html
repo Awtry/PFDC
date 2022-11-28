@@ -63,7 +63,7 @@
                                         <label for="Matricula">Matrícula:</label>
                                     </div>
                                     <div class="mb-3 col-6">
-                                        <input type="number" class="form-control" id="inputAlumnos"
+                                        <input type="number" class="form-control inputAlumnos" id="MatrAlumno"
                                             aria-describedby="Matricula alumno" placeholder="00000000">
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@
                                         <label for="Nombre">Nombre(s):</label>
                                     </div>
                                     <div class="mb-3 col-6">
-                                        <input type="text" class="form-control" id="inputAlumnos"
+                                        <input type="text" class="form-control inputAlumnos" id="NombreAlumno"
                                             aria-describedby="Nombre alumno" placeholder="ALAN">
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@
                                         <label for="APaterno">Apellido paterno:</label>
                                     </div>
                                     <div class="mb-3 col-6">
-                                        <input type="text" class="form-control" id="inputAlumnos"
+                                        <input type="text" class="form-control inputAlumnos" id="APaternoAlumno"
                                             aria-describedby="APaterno alumno" placeholder="GUZMÁN">
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@
                                         <label for="AMaterno">Apellido materno:</label>
                                     </div>
                                     <div class="mb-3 col-6">
-                                        <input type="text" class="form-control" id="inputAlumnos"
+                                        <input type="text" class="form-control inputAlumnos" id="AMaternoAlumno"
                                             aria-describedby="AMaterno alumno" placeholder="FLORES">
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@
                                         <label for="Carrera">Carrera que cursa:</label>
                                     </div>
                                     <div class="mb-3 col-6">
-                                        <input type="text" class="form-control" id="inputAlumnos"
+                                        <input type="text" class="form-control inputAlumnos" id="CarreraAlumno"
                                             aria-describedby="Carrera alumno" placeholder="ISSC">
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@
                                         <label for="Semestre">Semestre:</label>
                                     </div>
                                     <div class="mb-3 col-6">
-                                        <input type="number" class="form-control" id="inputAlumnos"
+                                        <input type="number" class="form-control inputAlumnos" id="SemestreAlumno"
                                             aria-describedby="AMaterno alumno" placeholder="7">
                                     </div>
                                 </div>
@@ -137,8 +137,8 @@
                                         <label for="Grupo">Grupo:</label>
                                     </div>
                                     <div class="mb-3 col-6">
-                                        <input type="number" class="form-control" id="inputAlumnos"
-                                            aria-describedby="AMaterno alumno" placeholder="711">
+                                        <input type="number" class="form-control inputAlumnos" id="GrupoAlumno"
+                                            aria-describedby="Grupo alumno" placeholder="711">
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                 <div class="container-fluid" style="margin-top: 5%; margin-bottom: 5%;">
                     <div class="row">
                         <div class="col-6">
-                            <button class="btn" style="margin-left: 6%;" id="botonesAlumno">
+                            <button class="btn" style="margin-left: 6%;" id="botonesAlumno" onclick="getDatos()">
                                 REGISTRAR
                             </button>
                         </div>
@@ -194,6 +194,8 @@
 
         </div>
         <!--Fin Contenido-->
+        <script type="text/javascript" src="../back/backAlumno.js"></script>
+        <script type="text/javascript" src="../back/pruebaAlumno.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
             crossorigin="anonymous"></script>
