@@ -60,18 +60,19 @@ function getDatos() {
         document.getElementById("GrupoAlumno").value
     ])
     console.log(alumnos)
+    debugger;
         for(j = 0; j<4; j++)
         {
             Genero = "../icons/MaleUser.png"
-            lista.innerHTML += `<tr id="TablaAlumnoTR"><th scope="row"> <h2 style="text-align: center; font-weight: bold;">${alumnos.length+1}</h2></th><td><div class="col" id="IconoContenedor"><img src="${Genero}" height="70px" width="70px"></div></td>
+            lista.innerHTML += `<tr id="TablaAlumnoTR"><th scope="row"> <h2 style="text-align: center; font-weight: bold;">${alumnos.length}</h2></th><td><div class="col" id="IconoContenedor"><img src="${Genero}" height="70px" width="70px"></div></td>
         <td style="text-align: center;">
-        <label id="cajaTexto">${alumnos[alumnos.length+1][j]}</label>
+        <label id="cajaTexto">${alumnos[alumnos.length-1][j]}</label>
         </td>
         <td></td>
-        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length+1][++j]}</label></td>
-        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length+1][++j]}</label></td>
-        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length+1][++j]}</label></td>
-        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length+1][++j]}</label></td>
+        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length-1][++j]}</label></td>
+        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length-1][++j]}</label></td>
+        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length-1][++j]}</label></td>
+        <td style="text-align: center;"><label id="cajaTexto">${alumnos[alumnos.length-1][++j]}</label></td>
         <td></td>
         <td>
                                         <div class="col" id="IconoContenedor" onclick=printDatos()>
